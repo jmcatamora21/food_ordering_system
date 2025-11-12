@@ -361,8 +361,7 @@ main > div:nth-child(2) select{
     width: 100%;
     background: transparent;
     padding: 10px 15px;
-    font-family: "Kalam", cursive;
-    font-size: clamp(1rem, 0.9459rem + 0.2703vw, 1.25rem);
+    font-size: 15px;
 }
 
 main > div:nth-child(2) select option{
@@ -377,12 +376,13 @@ main > div:nth-child(2) .foods-list > div{
 
 .nav{
     display: flex;
-    column-gap: 10px;
+    column-gap: 30px;
     background: #F1F1F1;
     padding-left: 15px;
 }
 
 .nav ul{
+    align-items: center;
     display: flex;
     column-gap: 10px;
 }
@@ -391,7 +391,7 @@ main > div:nth-child(2) .foods-list > div{
     display: grid;
     place-items: center;
     padding: 0 10px;
-    cursor: pointer;
+    cursor: pointer;    
 }
 
 .nav ul li.active{
@@ -657,6 +657,10 @@ main > div:nth-child(2) .foods-list > div{
 
     .seller-quotes{
         display: none !important;
+    }
+
+    .nav{
+        justify-content: space-between;
     }
 }
 

@@ -142,7 +142,7 @@ document.addEventListener("DOMContentLoaded", async function(){
                 
             </div>
             <div class="flex-column">
-                <span style="line-height:10px;"><span class="kalam-font fs-16">${item.name}</span><br><span class="fs-11" style="font-style:italic;">${c.name}</span></span>
+                <span style=""><span class=" fs-16">${item.name}</span><br><span class="fs-11" style="font-style:italic;">${c.name}</span></span>
                 <div style="height:5px;"></div>
                 <span class="fs-11">&nbsp;&nbsp;Quantity:</span>
                 <div class="cart-item-bottom-wrapper">
@@ -227,8 +227,8 @@ document.addEventListener("DOMContentLoaded", async function(){
             </div>
           </div>
           <div class="item-desc" style="margin-top:3px;display:flex !important;flex-direction:column;">
-            <div style="line-height:13px;flex:1;">
-              <span class="fs-16 kalam-font">${product.name}</span>
+            <div style="flex:1;">
+              <span class="fs-16">${product.name}</span>
             </div>
             <div class="pos-right"><span class="bold fs-16">P ${product.price}</span></div>
           </div
